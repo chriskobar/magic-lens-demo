@@ -1,5 +1,5 @@
 {
-  "_readme": "This file provides the shared narrative layer for Disney Lens. All characters reference this story context, so their responses feel connected to the same world. Edit the premise or beats to reshape the experience. Keep it light — this should color the responses, not dominate them.",
+  "_readme": "This file provides the shared narrative layer for Magic Lens. All characters reference this story context, so their responses feel connected to the same world. Edit the premise or beats to reshape the experience. Keep it light — this should color the responses, not dominate them.",
 
   "enabled": true,
 

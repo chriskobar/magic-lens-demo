@@ -1,4 +1,4 @@
-# Disney Lens: An AI-Powered Immersive Experience Demo
+# Magic Lens: An AI-Powered Immersive Experience Demo
 
 ## Case Study — Draft v1
 
@@ -51,13 +51,13 @@
 
 ## The Premise
 
-What if your phone could see the world the way a Disney storyteller does?
+What if your phone could see the world the way a theme park storyteller does?
 
-Disney's Imagineering division has spent decades perfecting the art of transforming ordinary spaces into immersive narrative experiences — through architecture, lighting, sound design, and environmental storytelling. But these experiences are locked inside theme parks. They require billions in infrastructure and can only be experienced by people who physically travel to them.
+Theme park designers have spent decades perfecting the art of transforming ordinary spaces into immersive narrative experiences — through architecture, lighting, sound design, and environmental storytelling. But these experiences are locked inside theme parks. They require billions in infrastructure and can only be experienced by people who physically travel to them.
 
 This project asks a different question: **What if AI could bring that same storytelling instinct to any environment, in real time, through a device you already carry?**
 
-Disney Lens is a proof-of-concept that demonstrates this idea. It's a web app that uses your phone's camera to see your surroundings, an AI vision model to understand what it's seeing, and a cast of Disney-inspired characters who narrate, react to, and reimagine your environment — complete with animated character sprites, particle effects, and spoken dialogue.
+Magic Lens is a proof-of-concept that demonstrates this idea. It's a web app that uses your phone's camera to see your surroundings, an AI vision model to understand what it's seeing, and a cast of storybook-inspired characters who narrate, react to, and reimagine your environment — complete with animated character sprites, particle effects, and spoken dialogue.
 
 It was designed and built in a single collaborative session with AI assistance, and it runs entirely in a mobile browser. No app store. No special hardware. Just a URL.
 
@@ -65,29 +65,29 @@ It was designed and built in a single collaborative session with AI assistance, 
 
 ## The Design Thinking
 
-The core insight behind Disney Lens isn't technical — it's experiential. Disney's best environments work because they feel *authored*. Every detail serves a story. A park bench isn't just a bench; it's where a character might sit. A garden path isn't just a path; it's the road to adventure.
+The core insight behind Magic Lens isn't technical — it's experiential. The best themed environments work because they feel *authored*. Every detail serves a story. A park bench isn't just a bench; it's where a character might sit. A garden path isn't just a path; it's the road to adventure.
 
-Disney Lens applies that same philosophy to AI: instead of building an AI that simply labels objects ("chair, bookshelf, window"), it builds one that *interprets* them through the lens of character and narrative. The AI sees a cozy room with afternoon light and worn books, and a Storyteller narrator says: *"In a room where afternoon light painted golden stripes across well-loved books, something extraordinary was about to begin."*
+Magic Lens applies that same philosophy to AI: instead of building an AI that simply labels objects ("chair, bookshelf, window"), it builds one that *interprets* them through the lens of character and narrative. The AI sees a cozy room with afternoon light and worn books, and a Storyteller narrator says: *"In a room where afternoon light painted golden stripes across well-loved books, something extraordinary was about to begin."*
 
 This distinction — **classification vs. interpretation** — is what separates a technical demo from an experience design demo.
 
 ### The Character System
 
-Rather than a single AI voice, Disney Lens features four character archetypes, each with a distinct personality, narrative style, and visual signature:
+Rather than a single AI voice, Magic Lens features four character archetypes, each with a distinct personality, narrative style, and visual signature:
 
-- **The Storyteller** — A classic Disney storybook narrator. Warm, poetic, sees the opening scene of a grand adventure in every mundane moment. Accompanied by golden fireflies and a floating, glowing storybook.
+- **The Storyteller** — A classic storybook narrator. Warm, poetic, sees the opening scene of a grand adventure in every mundane moment. Accompanied by golden fireflies and a floating, glowing storybook.
 
-- **The Conscience** — A Jiminy Cricket-style companion. Quippy, observant, notices the small details everyone else misses. Accompanied by floating thought bubbles and a little animated cricket with a top hat.
+- **The Conscience** — A pocket-sized cricket companion who plays the role of a gentle conscience. Quippy, observant, notices the small details everyone else misses. Accompanied by floating thought bubbles and a little animated cricket with a top hat.
 
 - **The Fairy Godmother** — Warm, encouraging, sees transformation potential in everything. Every space could be magical with a touch of reimagining. Accompanied by rising sparkles and a wand-wielding figure with a purple aura.
 
-- **The Wayfinder** — A Moana-inspired explorer spirit. Bold, curious, frames every path as a journey and every door as a portal. Accompanied by directional motes and a spinning compass rose.
+- **The Wayfinder** — An adventurous explorer spirit. Bold, curious, frames every path as a journey and every door as a portal. Accompanied by directional motes and a spinning compass rose.
 
 The AI automatically selects which character responds based on what it sees — indoor scenes with desks and books trigger the Conscience; outdoor paths trigger the Wayfinder; scenic vistas trigger the Storyteller. Users can also manually pin a character for a consistent experience.
 
 ### Why Multiple Characters Matter
 
-This isn't just a creative flourish. It demonstrates a key principle of immersive experience design: **context-adaptive narration**. In a theme park, you don't hear the same guide voice in Adventureland and Fantasyland. The environment shapes the storytelling voice. Disney Lens brings that principle to AI by matching character personality to environmental context.
+This isn't just a creative flourish. It demonstrates a key principle of immersive experience design: **context-adaptive narration**. In a theme park, you don't hear the same guide voice in a jungle-themed land and a fairy-tale castle. The environment shapes the storytelling voice. Magic Lens brings that principle to AI by matching character personality to environmental context.
 
 ---
 
@@ -118,7 +118,7 @@ Several design choices elevate this beyond a standard "AI describes a photo" dem
 
 ---
 
-## What This Demonstrates for Disney
+## What This Demonstrates for Immersive Entertainment
 
 This project is not a product. It's a **proof of concept for a design philosophy**: that AI can be a medium for immersive storytelling, not just a utility.
 
@@ -134,10 +134,10 @@ Specifically, it demonstrates:
 
 ### Imagined Applications
 
-- **In-park companion**: A personalized AI character that narrates a guest's journey through a Disney park differently based on what they've seen, where they've been, and what they respond to.
-- **At-home experiences**: Turning a child's bedroom into Neverland or the Hundred Acre Wood through camera-based narration and AR-lite overlays.
-- **Location-based storytelling**: Disney properties (hotels, cruise ships, retail) enriched with AI characters that respond to the specific environment.
-- **Accessible experiences**: Bringing the *feeling* of a Disney park to people who can't travel to one — through a phone, a voice, and a story.
+- **In-park companion**: A personalized AI character that narrates a guest's journey through a theme park differently based on what they've seen, where they've been, and what they respond to.
+- **At-home experiences**: Turning a child's bedroom into an enchanted forest or a pirate cove through camera-based narration and AR-lite overlays.
+- **Location-based storytelling**: Resort properties (hotels, cruise ships, retail) enriched with AI characters that respond to the specific environment.
+- **Accessible experiences**: Bringing the *feeling* of a theme park to people who can't travel to one — through a phone, a voice, and a story.
 
 ---
 
@@ -165,13 +165,13 @@ Four design explorations emerged from real-world testing:
 
 In the first build, character personalities were defined as JavaScript strings embedded in application code. This meant that every personality adjustment — "make the Storyteller less flowery," "give Cricket more humor" — required editing source code, committing, and redeploying. That's fine for a developer, but it's a terrible workflow for experience design, where the right tone is discovered through rapid iteration and gut feel, not through pull requests.
 
-The planned solution: externalize all character personality, voice tuning, and behavioral instructions into a standalone configuration file. This turns character design into an editorial workflow — open a file, adjust the Fairy Godmother's warmth, save, redeploy. The distinction matters because it reflects how immersive experiences are actually authored at companies like Disney: the storytellers and the engineers work from different artifacts.
+The planned solution: externalize all character personality, voice tuning, and behavioral instructions into a standalone configuration file. This turns character design into an editorial workflow — open a file, adjust the Fairy Godmother's warmth, save, redeploy. The distinction matters because it reflects how immersive experiences are actually authored at themed-entertainment studios: the storytellers and the engineers work from different artifacts.
 
 ### A Shared Narrative Layer
 
 The most ambitious and most uncertain exploration. Without a story layer, the app's character responses are individually charming but collectively disconnected. Each one describes the scene well, but there's no sense that they're all part of the same world. A shared narrative premise — injected into every character's prompt — would give all four characters a reason to reference the same themes, the same sense of hidden wonder, the same gentle invitation to explore.
 
-This is the closest analog to what Disney Imagineering calls "placemaking": the idea that every element in an environment should feel like it belongs to the same story. A bench in Adventureland isn't just a bench — it's a place where a pirate might have rested. Disney Lens aims for the same principle with AI: every narration, regardless of which character delivers it, should feel like it belongs to the same enchanted world.
+This is the closest analog to what theme park designers call "placemaking": the idea that every element in an environment should feel like it belongs to the same story. A bench in an adventure-themed land isn't just a bench — it's a place where a pirate might have rested. Magic Lens aims for the same principle with AI: every narration, regardless of which character delivers it, should feel like it belongs to the same enchanted world.
 
 The risk is overreach. A heavy-handed story layer could make responses feel templated rather than spontaneous. For the demo, a light-touch premise — "this neighborhood holds hidden magic" — is being tested. If it constrains the AI's responsiveness to actual scene content, it gets shelved. And that decision itself is a valuable design insight: knowing where authored narrative enhances AI experience and where it fights against it.
 
@@ -181,7 +181,7 @@ The animated sprites — a floating storybook, a little cricket, a fairy godmoth
 
 ### The Conversation Has to Feel Real
 
-The most critical finding from user testing: when a user speaks to the app and the current narration keeps playing, the illusion breaks completely. In a real conversation — and certainly in a Disney character interaction — the character stops talking and listens when you address them. The current behavior of playing through stale narration while processing new input makes the experience feel like a recording rather than an interaction.
+The most critical finding from user testing: when a user speaks to the app and the current narration keeps playing, the illusion breaks completely. In a real conversation — and certainly in a live character meet-and-greet — the character stops talking and listens when you address them. The current behavior of playing through stale narration while processing new input makes the experience feel like a recording rather than an interaction.
 
 The fix is straightforward (immediately interrupt audio when the microphone activates, cancel in-flight API calls, show a listening state), but the insight is important: **responsiveness is more critical to immersion than quality.** A slightly delayed but contextually responsive reply feels more magical than a beautifully crafted response that arrives while the user has already moved on.
 

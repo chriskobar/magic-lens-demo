@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Disney Lens — AI Immersive Experience',
-  description: 'See your world through the eyes of Disney characters',
+  title: 'Magic Lens — AI Immersive Experience',
+  description: 'See your world through the eyes of enchanted characters',
 };
 
 export const viewport = {

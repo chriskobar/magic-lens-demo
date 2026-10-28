@@ -1,8 +1,8 @@
-# Disney Lens Demo — Setup & Deployment Guide
+# Magic Lens Demo — Setup & Deployment Guide
 
 ## What You're Building
 
-A phone-based AI experience that uses your camera to see your environment, then responds with Disney-inspired characters who narrate, comment on, and visually enchant what they see — with particle effects, adaptive character selection, and spoken narration through your AirPods.
+A phone-based AI experience that uses your camera to see your environment, then responds with storybook-inspired characters who narrate, comment on, and visually enchant what they see — with particle effects, adaptive character selection, and spoken narration through your AirPods.
 
 ---
 
@@ -12,7 +12,7 @@ A phone-based AI experience that uses your camera to see your environment, then 
 1. Go to https://console.anthropic.com
 2. Sign up or log in
 3. Go to **API Keys** in the left sidebar
-4. Click **Create Key**, name it "disney-lens"
+4. Click **Create Key**, name it "magic-lens"
 5. Copy the key (starts with `sk-ant-`)
 
 ### ElevenLabs (Character Voices)
@@ -29,7 +29,7 @@ Open your terminal (on Mac: Cmd+Space → type "Terminal" → Enter).
 
 ```bash
 # 1. Navigate to the project folder
-cd ~/path/to/disney-lens
+cd ~/path/to/magic-lens
 
 # 2. Install dependencies
 npm install
@@ -108,7 +108,7 @@ Vercel will ask:
 - **Set up and deploy?** → Y
 - **Which scope?** → Pick your account
 - **Link to existing project?** → N
-- **Project name?** → disney-lens
+- **Project name?** → magic-lens
 - **Directory?** → ./
 - **Override settings?** → N
 
@@ -120,7 +120,7 @@ Vercel will ask:
 3. Click **Save**
 4. Redeploy: `vercel --prod`
 
-You'll get a URL like `https://disney-lens.vercel.app` — this is your demo link!
+You'll get a URL like `https://magic-lens.vercel.app` — this is your demo link!
 
 ---
 
@@ -136,7 +136,7 @@ You'll get a URL like `https://disney-lens.vercel.app` — this is your demo lin
 
 ### Characters
 - 📖 **The Storyteller** — poetic narrator (great for scenic/outdoor views)
-- 🦗 **The Conscience** — Jiminy Cricket-style quips (great for desks/rooms)
+- 🦗 **The Conscience** — pocket-sized cricket quips (great for desks/rooms)
 - ✨ **The Fairy Godmother** — sees transformation potential (great for homes)
 - 🧭 **The Wayfinder** — adventure spirit (great for paths/outdoors)
 

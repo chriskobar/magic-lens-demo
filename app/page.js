@@ -456,7 +456,7 @@ const IconX = () => (
 );
 
 // ─── Main App ───
-export default function DisneyLens() {
+export default function MagicLens() {
   const [started, setStarted] = useState(false);
   const [narration, setNarration] = useState('');
   const [character, setCharacter] = useState(CHARACTERS.narrator);
@@ -722,7 +722,7 @@ export default function DisneyLens() {
         <div className="welcome-overlay">
           <WelcomeParticles />
           <h1>Magic Lens</h1>
-          <p className="subtitle">A Disney-like AI Immersive Experience.</p>
+          <p className="subtitle">A theme park experience on your phone.</p>
           <p className="tagline">See your world through the eyes of enchanted characters. Point your camera anywhere — and let the magic begin.</p>
           <button className="start-btn" onClick={handleStart}>Enter the Story</button>
           <p className="proof-of-concept">A proof of concept for demo purposes only.</p>
